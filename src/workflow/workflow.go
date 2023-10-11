@@ -13,7 +13,7 @@ func SimpleWorkflow(ctx workflow.Context, value string, config *utils.Config) er
 		TaskList:               config.ApplicationName,
 		ScheduleToCloseTimeout: time.Second * 60,
 		ScheduleToStartTimeout: time.Second * 60,
-		StartToCloseTimeout:    time.Second * 60,
+		StartToCloseTimeout:    time.Second * 120,
 		HeartbeatTimeout:       time.Second * 10,
 		WaitForCancellation:    false,
 	}

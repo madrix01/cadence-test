@@ -16,7 +16,7 @@ func GetConfig() *Config {
 		ApplicationName:        "cadence-test",
 		ClientName:             "simpleworker",
 		CadenceService:         "cadence-service",
-		HostPort:               "127.0.0.1:7933",
+		HostPort:               "127.0.0.1:7833",
 		Domain:                 "cadence-test",
 		TaskListName:           "SimpleWorker",
 		CadenceFrontendService: "cadence-frontend",
